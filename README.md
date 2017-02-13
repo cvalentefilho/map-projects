@@ -4,7 +4,7 @@ My first react projet with google maps integration
 ### Used
 
 ```
-[google-map-react](http://istarkov.github.io)
+[example](http://istarkov.github.io)
 [react-maskedinput](https://github.com/insin/react-maskedinput)
 ```
 
