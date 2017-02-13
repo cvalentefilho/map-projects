@@ -1,0 +1,75 @@
+.container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.box-input{
+  height: 150px;
+  background-color: #EEE9E9;
+}
+
+.box-input h4{
+  position: absolute;
+  padding-left: 40px;
+}
+.box-form{
+  position: absolute;
+  padding: 60px 0 0 45px
+}
+
+.box-form label{
+  color: #696969;
+  clear:left;
+  text-align:right;
+  padding-right:10px;
+}
+
+.CepNumber input{
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.button-find{
+    height: 35px;
+    border-radius: 4px;
+    background-color: #1E90FF;
+    color: #fff;
+    font-weight: bold;
+    border-width: 0px;
+    box-shadow: 3px 2px #c5c5c5;
+    width: 100px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.box-map{
+  width: 50%;
+  display: block;
+  position: absolute;
+  border: 4px solid #d5d5d5;
+}
+
+.maps{
+  height: 250px;
+  width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
