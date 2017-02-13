@@ -3,10 +3,8 @@ My first react projet with google maps integration
 
 ### Used
 
-```
-[example](http://istarkov.github.io)
+[google-map-react](https://github.com/istarkov/google-map-react)
 [react-maskedinput](https://github.com/insin/react-maskedinput)
-```
 
 
 ## Run project local
