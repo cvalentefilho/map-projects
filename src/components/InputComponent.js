@@ -25,10 +25,14 @@ static propTypes = {
     this.setState({input: event.target.value});
   }
 
+  handleSubmit(event){
+    event.preventDefault();
+  }
+
   render() {
 
     return(  
-      <form className="box-form">
+      <form className="box-form" onSubmit={this.handleSubmit}>
         <label>
           CEP:
            <MaskedInput mask="11111-111" ref="input" value={this.state.input} type="text" onChange={this.handleChange}  required/>
